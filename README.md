@@ -1,6 +1,6 @@
 # Anneket_Dashboard
 
-This is the frontend application for Aneket Assesment.
+This is the frontend application for Aqib's Aneket Assesment.
 
 ## Tech Stack 🥞
 
@@ -42,7 +42,7 @@ yarn dev
 
 ## Live Project URL
 
-[Vercel] (https://crm-dashboard-gray.vercel.app)
+[Vercel] (https://aneket-assessment.vercel.app)
 
 [LoginDetails]
 (username: emilys)

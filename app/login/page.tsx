@@ -68,7 +68,7 @@ const LoginPage = () => {
           token,
           ttl,
           refreshToken,
-        }),
+        })
       );
 
       const tokenExpiration = addMilliseconds(new Date(), ttl);
@@ -105,7 +105,7 @@ const LoginPage = () => {
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel className="text-xs" aria-label="Email">
-                      Email Id
+                      Email
                     </FormLabel>
                     <FormControl>
                       <Input
