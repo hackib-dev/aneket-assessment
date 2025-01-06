@@ -103,6 +103,7 @@ export const columns: ColumnDef<CustomerData>[] = [
       const statusValue = row.getValue("status");
 
       const status = staffActionStatus.find(
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (s: any) => s.value === statusValue,
       );
 

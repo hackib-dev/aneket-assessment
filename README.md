@@ -22,7 +22,7 @@ On every commit the following scripts are run
 ## Setting up Project 👨🏾‍💻
 
 ```
-git clone https://github.com/hackib-dev/crm_dashboard.git
+git clone https://github.com/hackib-dev/aneket-assessment
 
 cd aneket_assessment
 
@@ -47,7 +47,3 @@ yarn dev
 [LoginDetails]
 (username: emilys)
 (password: emilyspass)
-
-## Frontend Figma Designs
-
-[Figma Design](https://www.figma.com/community/file/1412453542472706450)

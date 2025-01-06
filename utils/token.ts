@@ -28,7 +28,7 @@ export const stopTokenRefreshTimer = () => {
 
 export const startTokenRefreshTimer = (
   expirationTime: number,
-  refreshToken: string
+  refreshToken: string,
 ) => {
   const expirationMinus120000 = Number(expirationTime) - 120000;
   const jwtExpirationTime =
@@ -48,7 +48,7 @@ export const startTokenRefreshTimer = (
         storedSessionObj.token = newToken;
         sessionStorage.setItem(
           sessionStorageName,
-          JSON.stringify(storedSessionObj)
+          JSON.stringify(storedSessionObj),
         );
       }
       startTokenRefreshTimer(Number(newExpirationTime), newToken);

@@ -68,7 +68,7 @@ const LoginPage = () => {
           token,
           ttl,
           refreshToken,
-        })
+        }),
       );
 
       const tokenExpiration = addMilliseconds(new Date(), ttl);

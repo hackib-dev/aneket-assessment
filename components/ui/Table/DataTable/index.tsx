@@ -13,7 +13,6 @@ import {
   getSortedRowModel,
   useReactTable,
 } from "@tanstack/react-table";
-import { useEffect } from "react";
 import {
   Table,
   TableBody,
@@ -24,7 +23,6 @@ import {
 } from "..";
 import { DataTablePagination } from "../DataTablePagination";
 import { Input } from "../../input";
-import { FaSearch } from "react-icons/fa";
 import { SearchIcon } from "lucide-react";
 
 interface DataTableProps<TData, TValue> {

@@ -1,4 +1,4 @@
-import { Menu, SearchIcon, X } from "lucide-react";
+import { Menu, SearchIcon } from "lucide-react";
 import { useAppSelector } from "@/store/hooks";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
