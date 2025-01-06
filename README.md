@@ -40,6 +40,10 @@ yarn dev
 
 ```
 
+## Dummy API Link
+
+[DummyApi] (https://dummyjson.com)
+
 ## Live Project URL
 
 [Vercel] (https://aneket-assessment.vercel.app)
