@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anneket_Dashboard
 
-## Getting Started
+This is the frontend application for Aneket Assesment.
 
-First, run the development server:
+## Tech Stack 🥞
 
-```bash
-npm run dev
-# or
+- [NextJS](https://nextjs.org/)
+- [TailwindCss](https://tailwindcss.com/)
+
+## Code Rules and Structure 📖
+
+You can look through the codebase to see how code is structured and written. ESlint also enforces some rules.
+
+## Pre-commits 🏁
+
+On every commit the following scripts are run
+
+- yarn check-format (Check Prettier standards)
+- yarn check-lint (Check ESLint standards)
+- yarn check-types (Check tsconfig standards)
+
+## Setting up Project 👨🏾‍💻
+
+```
+git clone https://github.com/hackib-dev/crm_dashboard.git
+
+cd aneket_assessment
+
+yarn
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# yarn dev (run application in development mode)
+
+# yarn build (build apps)
+
+# yarn lint (Eslint Check)
+
+# yarn format (Format code with prettier)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Project URL
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Vercel] (https://crm-dashboard-gray.vercel.app)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[LoginDetails]
+(username: emilys)
+(password: emilyspass)
 
-## Learn More
+## Frontend Figma Designs
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Figma Design](https://www.figma.com/community/file/1412453542472706450)
